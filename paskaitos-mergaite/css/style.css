@@ -1,0 +1,106 @@
+/* 
+pradinis - teve musu taisykle (CSS reset)
+body * { viskas kas yra bodzio viduje 
+*/
+body,
+body * { 
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+body {
+    background-color: #F8F8F8;
+}
+
+/* sventa marija
+div {
+    display: inline-block;
+    width: 100%;
+    float: left;
+}
+*/
+
+.container {
+    display: inline-block;
+    width: 1200px;
+    margin-top: 20px;
+    margin-left: calc( (100% - 1200px) / 2 );
+    
+}
+
+    header {
+        display: inline-block;
+        width: 100%;
+        height: 80%;
+    }
+        .logo {
+            display: inline-block;
+            float: left;
+            height: 100%;
+        }
+        nav {
+            display: inline-block;
+            float: right;
+            margin-top: 20px;
+            
+        }
+            a {
+                display: inline-block;
+
+                margin-left: 10px;
+                text-decoration: none;
+                font-size: 18px;
+                line-height: 30px;
+                color: black;
+                color: #9E9E9E;
+                
+            }
+            a:hover {
+                color: burlywood;
+            }
+            
+            .btn {
+                    /* storis stilius spalva(eile nesvarbi). privaloma nurodyti stiliu, nes be jo neveiks */
+                border: 5px solid rgb(185, 185, 185);
+                margin-top: -5px;
+                border-radius: 20px;
+                padding-left: 10px;
+                padding-right: 10px;
+                text-align: center;
+            }
+
+    .content {
+        display: inline-block;
+        width: 100%;
+        margin-top: 80px;
+    }
+        .half{
+            display: inline-block;
+            width: 50%;
+            float: left;
+            color: #9E9E9E;
+        }
+            h1 {
+                display: inline-block;
+                width: 100%;
+                font-size: 100px;
+                margin-top: 50px;
+                
+            }
+            p{
+                display: inline-block;
+                width: 100%;
+                font-size: 30px;
+                
+            }
+        
+            .main-image{
+                display: inline-block;
+                width: 80%;
+                margin-left: 10%;
+                
+            }
